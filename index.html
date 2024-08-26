@@ -42,7 +42,12 @@
 
         <!-- Custom Css Value -->
         <style>
-            
+            .banner-color {
+                background-color: rgba(229, 84, 115, 0.1);
+            }
+            .paragraph-text {
+                background-color: rgba(39, 39, 39, 0.60);
+            }
         </style>
 
         <!-- Fav icon -->
@@ -51,12 +56,90 @@
 
     <body class="font-lato">
 
-        <main>
-            <div>
-                <h2>bdhbdhjaba</h2>
-            </div>
-        </main>
 
+        <!-- heading section -->
+        <header class="bg-[#fcedf1] ">
+
+            <!-- nav section -->
+            <section class="md:container mx-auto">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h7" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Homepage</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-center">
+
+                        <a class="btn btn-ghost text-[#272727] text-2xl font-extrabold md:text-3xl md:font-extrabold">
+                            <div class="bg-white p-2 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="black" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
+                                </svg>
+                            </div>
+                            Florish
+                        </a>
+                    </div>
+                    <div class="navbar-end">
+                        <button class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-ghost btn-circle">
+                            <div class="indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                </svg>
+                                <span class="badge badge-xs badge-primary indicator-item"></span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- banner section -->
+            <section class="bg-[#fcedf1]">
+
+                <div class="md:container md:mx-auto flex flex-col-reverse md:flex md:flex-row px-5 lg:px-24 lg:pt-24">
+
+                    <!-- text content -->
+                    <div class=" space-y-4 lg:space-y-7 ">
+                        <h1 class="text-[#272727] text-4xl lg:text-7xl md:text-5xl lg:font-extrabold">Let's make beautiful flowers a part of your life.</h1>
+                        <p class="text-paragraph-text lg:text-lg lg:font-normal">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                        <button class="btn bg-[#E55473] border-none text-[#FFF] text-lg font-bold">Shop Now</button>
+                    </div>
+
+                    <!-- image content -->
+                    <div class="">
+                        <img class="" src="./Flower Asset/pngwing 10.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- main section -->
+        <main></main>
+
+        <!-- footer section -->
+        <footer></footer>
     </body>
 
 </html>
